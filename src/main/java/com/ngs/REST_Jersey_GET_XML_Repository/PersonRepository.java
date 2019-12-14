@@ -8,8 +8,8 @@ public class PersonRepository {
 	List<Person> persons;
 
 	public PersonRepository() {
-
-		persons = new ArrayList<Person>();
+		
+		persons=new ArrayList<Person>();
 
 		Person p1 = new Person();
 		p1.setPid(1);
